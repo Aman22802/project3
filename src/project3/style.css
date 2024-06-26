@@ -1,0 +1,211 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(46, 45, 45);
+}
+
+#input{
+    width: 252px;
+    font-size: 19px;
+    position: relative;
+    left: 446px;
+    border: 1px solid #fff;
+    padding: 4px;
+    margin: 200px
+}
+
+.btn{
+    /* height: 32px; */
+    width: 76px;
+    background-color: #30e8d0;
+    position: relative;
+    bottom: 232px;
+    /* margin: auto; */
+    left: 898px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.box {
+    height: 487px;
+    width: 45%;
+    background-color: white;
+    position: relative;
+    left: 490px;
+    bottom: 195px;
+    border-radius: 25px;
+}
+
+
+.box2 {
+    position: relative;
+    top: 126px;
+    background-color: black;
+    color: white;
+    height: 138px;
+    width: 469px;
+}
+
+h1{
+    margin: -20px;
+    padding: 25px;
+    font-size: 65px;
+}
+/* span{
+        
+    font-size: 41px;
+    position: relative;
+    bottom: 90px;
+    left: 192px;
+} */
+
+.span2{
+    position: relative;
+    top: -37px;
+    font-size: 16px;
+    top: -74px;
+    left: 249px;
+}
+
+.span1{
+    position: relative;
+    left: 239px;
+    font-size: 25px;
+    bottom: 76px;
+}
+
+.anotherbox{
+    background-color: #87e4ff;
+    height: 144px;
+    width: 246px;
+    position: relative;
+    left: 497px;
+    bottom: 170px;
+
+}
+
+
+.date {
+    font-size: 40px;
+    height: 139px;
+    width: 45.5%;
+    background-color: #8ddeff;
+    position: relative;
+    left: 469px;
+    bottom: 173px;
+}
+
+    .span4{
+        position: relative;
+        top: 67px;
+        left: -170px;
+        /* font-weight: 400px; */
+    }
+
+.icon{
+    position: relative;
+    left: 34%;
+    top: 76px;
+}
+
+.icon i{
+    font-size: 115px;
+} 
+
+
+
+
+.tem-info-minmax{
+    position: relative;
+    bottom: 146px;
+    color: black;
+    left: 20px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.extra-info{
+    columns: 30px;
+    column-gap: 1px;
+}
+
+.aman{
+    color: #0cd6d8;
+    position: relative;
+    top: 15px;
+    right: 7px;
+    font-size: 26px;
+}
+
+.bhai{
+    position: relative;
+    color: aqua;
+    left: 108px;
+    top: 5px;
+    font-size: 29px;
+}
+
+.extra-info-left1{
+    position: relative;
+    right: 96px;
+    left: 126px;
+}
+
+.choti i{
+    position: relative;
+    left:  295px;
+    color: aqua;
+    font-size: 31px;
+    bottom: -7px;
+    /* display: flex; */
+}
+
+h6{
+    position: relative;
+    left: 352px;
+    bottom: 26px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pressure{
+    font-size: 14px;
+    color: black;
+    position: relative;
+    bottom: -22px;
+    left: 317px;
+}
+.juli i {
+    font-size: 37px;
+    color: aqua;
+    position: relative;
+    left: 408px;
+    bottom: -5px;
+}
+
+h5 {
+    position: relative;
+    left: 442px;
+    bottom: -9px;
+    font-weight: 476;
+}
+
+.wind {
+    color: black;
+    font-size: 19px;
+    position: relative;
+    bottom: -5px;
+    left: 446px;
+}
+
+h4{
+    font-weight: 400;
+}
